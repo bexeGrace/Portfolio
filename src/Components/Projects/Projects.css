@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Inter&family=Jockey+One&family=Just+Me+Again+Down+Here&family=Mina:wght@400;700&display=swap');
+
+
+.project-container {
+    background-color: rgb(6, 6, 6);
+    display: flex;
+    padding-top: 0;
+    margin-top: 15vw;
+    /* height: 100vw; */
+}
+
+.project-card-container {
+    display: flex;
+    height: 120vw;
+
+}
+
+.project-card {
+    display: flex;
+    justify-content: space-between;
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+    width: 75vw;
+    background-color: rgba(9, 9, 9, 1); 
+    border-radius: 8px; 
+    box-shadow: 0.5vw 1vw 2vw rgba(0, 0, 0, 0.3); 
+    padding: 5vw 10vw; 
+    width: 80%;
+    margin: auto;
+    height: 100vw;
+    box-sizing: border-box;
+  }
+
+  .project-card img {
+    width: 60%; 
+    border-radius: 8px; 
+    margin-top: 20px; 
+  }
+
+  .project-name {
+    margin-bottom: 3vw; 
+    font-size: 2vw; 
+    color: #fffefe;
+    text-align: left;
+  }
+  
+  .project-description {
+    font-size: 2vw;
+    color: #fcfbfb;
+    text-align: left;
+  }
+
+  .htm-tag {
+    color: green;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 3vw;
+  }
+
+  .jjs {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-imgs {
+    display: flex;
+    width: 67vw;
+    height: 60vw;
+    overflow: scroll;
+    gap: 2vw;
+  }
+
+  .project-imgs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pic {
+    font-size: 3vw;
+  }
+
+  .project-btn {
+    width: 100%;
+    padding: 1vw;
+    background-color: rgb(72, 72, 213);
+    font-size: 1.5vw;
+    color: orange;
+  }
+
+  .htm-tag a {
+    text-decoration: none;
+  }

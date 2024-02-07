@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Just+Me+Again+Down+Here&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Just+Me+Again+Down+Here&family=Mina:wght@400;700&display=swap');
+
+.desc {
+    color:white;
+    font-size: 3vw;
+}
+
+.hero-container {
+    display: flex;
+    height: 30vw;
+    padding: 5vw 0;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.hero-image {
+    width: 25vw;
+    border: hidden;
+    border-radius: 50%;
+}
+
+#name {
+    font-family: 'Just Me Again Down Here', cursive;
+    font-size: 8vw;
+    color: cadetblue;
+    display: block;
+}
+
+#title {
+    display: block;
+    font-family: 'Mina', sans-serif;
+
+}

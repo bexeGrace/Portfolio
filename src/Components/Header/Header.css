@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vw 4vw;
+    align-items: center;
+}
+
+.logo-img {
+    width: 10vw;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+    background-color: #2E2B2B;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 4vw;
+}
+
+.nav-links{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    padding: 1vw 2vw;
+}
+
+.nav-links:hover {
+    border-bottom: 4px solid antiquewhite;
+}

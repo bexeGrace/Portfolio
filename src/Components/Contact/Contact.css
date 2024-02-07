@@ -1,0 +1,118 @@
+h1 {
+    color: white;
+}
+
+.contact-card {
+    display: flex;
+    justify-content: space-between;
+    scroll-snap-align: center;
+    flex: 0 0 auto;
+    width: 75vw;
+    background-color: rgba(9, 9, 9, 0.9); 
+    border-radius: 8px; 
+    box-shadow: 0.5vw 1vw 2vw rgba(0, 0, 0, 0.3); 
+    padding: 0 10vw; 
+    width: 80%;
+    margin: auto;
+    height: 70vw;
+    box-sizing: border-box;
+  }
+
+.contact-container {
+    background-color: black;
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-title {
+    font-size: 6vw;
+    position: relative;
+    font-family: 'Jockey One', sans-serif;
+    top: -8.6vw;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to bottom, black 55%, white 45%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.social-links {
+    background-color: #75C1F3;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    align-self: center;
+    padding: 2vw;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.address {
+    background-color: rgb(235, 180, 50);
+    padding: 2vw;
+    box-sizing: border-box;
+    margin-top: 5vw;
+    width: 90vw;
+}
+
+.address-con {
+    display: flex;
+    justify-content: space-around;
+}
+
+.address address{
+    font-size: 2vw;
+    text-align: left;
+}
+
+.social-links h1 {
+    font-size: 4vw;
+    color:#480202;
+}
+
+.facebook-el {
+    display: flex;
+    width: 50vw;
+    justify-content: space-around;
+    margin: 1vw;
+}
+
+.facebook-el h2 {
+    background-color: #333333;
+    padding: 1vw;
+    width: 30vw;
+    color:#27a0f0;
+}
+
+.facebook-el h2:hover {
+    background-color: #837171;
+    color: #1a3a50;
+}
+
+.facebook-el a {
+    text-decoration: none;
+}
+
+.facebook-el img{
+    width: 4vw;
+    color: black;
+}
+
+.feedback-name {
+    font-size: 2vw;
+    text-align: left;
+}
+
+.feedaback textarea{
+    font-size: 1.5vw;
+}
+
+#send {
+    display: block;
+}
